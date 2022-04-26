@@ -329,7 +329,6 @@ class Play extends Phaser.Scene
     //
     checkCollision(rocket, ship)
     {
-        // simple AABB bounds checking
         if
         (
             rocket.x < ship.x + ship.width &&
